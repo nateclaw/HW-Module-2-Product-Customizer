@@ -1,0 +1,1663 @@
+fileFormatVersion: 2
+guid: 849d84bf959efe2469a7ba03f57cd8a3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1968
+        width: 192
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac3edca924be4c41821bcf900506e26
+      internalID: -924258690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1972
+        width: 192
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b648f3a45f99b409451bd64834d724
+      internalID: 1591086235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1968
+        width: 112
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13daad6f46721664ca0c64aa359e9815
+      internalID: -932957178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1965
+        width: 208
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2ec84faf0260c4482c8adfaf1f89da
+      internalID: 1109597069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1973
+        width: 74
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d04f36ff33f8f4dbd7d19f552490d2
+      internalID: -244521771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 1963
+        width: 192
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4557a54169c1364abb2b70e2f0d465b
+      internalID: -1678654194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 1968
+        width: 75
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ab2eea3cb09764dbf8ef6a510d07c4
+      internalID: -1677000230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1871
+        width: 188
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af99b0f3c798efd41b11b870b1bf2e8c
+      internalID: 1612633728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1871
+        width: 112
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97a88df235bea843a7239b547f4e0c6
+      internalID: 203704239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1871
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7028faff1c83e9f4fb344b37f888b732
+      internalID: 877384198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1859
+        width: 202
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b95d5c55e1092d4e80218c8d0e34133
+      internalID: -719530317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1859
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083d88b727f778348a39db5e4cee9801
+      internalID: 828970686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 1871
+        width: 192
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edad789a737629c4882413b966050501
+      internalID: -702760233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 1871
+        width: 120
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06409a87b0a963f4cb0b5e71df3bf293
+      internalID: 1473742538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1779
+        width: 200
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d02b71089d9634fa36005ca1683145
+      internalID: 1312030157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1775
+        width: 86
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282fe1114bf11124992959334166760b
+      internalID: 1631000599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1772
+        width: 162
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8462750375c0e1649b99a2fcd2f434d1
+      internalID: -1129318033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1769
+        width: 180
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f3d5d2ab30a444185ca5bfb5e53440
+      internalID: 699200592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1762
+        width: 92
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b2cd6701c7f5b4ab7f2956ace415c2
+      internalID: -1321432175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 1779
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed75aa3545cf9224e8ff47e482e853de
+      internalID: 505910844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 1776
+        width: 107
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685a283f988b1b84ea114036f4658da5
+      internalID: -676272642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1686
+        width: 216
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb42c029ec84ee45910106ff66b9a72
+      internalID: 36856180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1683
+        width: 216
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd19945a493a2b342b7958681b9ee430
+      internalID: -710989916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1687
+        width: 194
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f1a73a3ce23374991b653e42fe0a28
+      internalID: -1170907272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1671
+        width: 220
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99391fb0fea766f4ba17ad9459f90645
+      internalID: -814758304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1707
+        width: 224
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3ba020bdf4dd145a20f647325e7a25
+      internalID: 2076866782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 1675
+        width: 192
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b3d8be8ee6c284cbb829164676485b
+      internalID: -280445336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1675
+        width: 132
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99421e92f4bd8544db9b8f4b74175d49
+      internalID: 866199796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1582
+        width: 132
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ff6a6b195becb4c9fcbd2d26805d61
+      internalID: 1240816349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1571
+        width: 240
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73dd5e2ed37dc5479b92831a78dd477
+      internalID: -1366272090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1589
+        width: 184
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229239a40ce04714589d0d54b7669312
+      internalID: -299544912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1571
+        width: 204
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be433535e750239488e5a5f4c6731c76
+      internalID: -96531395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 1582
+        width: 190
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebc1867ab93d3b4981c1f5e9b5957fb
+      internalID: 413499715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1579
+        width: 132
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72c9d277ab77de4fa001b730e8b8dd2
+      internalID: 1456195157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1495
+        width: 184
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65470bab9cf7fdb4ca644723fae70e1b
+      internalID: 485997044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1495
+        width: 184
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc66c9c57082834d96b76ba75e763ad
+      internalID: -1155398520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1495
+        width: 215
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fa91babdf967145b45d377dee850de
+      internalID: 1009100322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1479
+        width: 196
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a7cda847481674582552fb20593e5a
+      internalID: 313488328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 1479
+        width: 188
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b0ad22191edc94fb3b95e34538d8dc
+      internalID: 72517577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1479
+        width: 132
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af8d55243d013b4d82477fc86d2f93a
+      internalID: 1754359546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1407
+        width: 219
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e5d2a4913fe4947b9e3d866948ed0b
+      internalID: -1932574760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1394
+        width: 171
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52dedcf5e1820b46bad17033b822622
+      internalID: 1037029268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1391
+        width: 216
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4907541240c03b145849a886258bf7b1
+      internalID: -738647405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1366
+        width: 160
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834495481f67c024cbc07fcf7b56770f
+      internalID: -1050558686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 1390
+        width: 188
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a84a3f39307584185cb98d18b8b31b
+      internalID: 995489167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1390
+        width: 132
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d61020004cd51e42a699cd0a918d58d
+      internalID: 39514803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1303
+        width: 203
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df4ae64f5d7bc24b9be4b4b345dfa38
+      internalID: 1348202038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1293
+        width: 168
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f9a5b37abaf0048886464897c82dd8
+      internalID: -1476810907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 1299
+        width: 188
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ca4d73d9400dc4b891d7ed4fb53781
+      internalID: -192979985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1295
+        width: 132
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49c31c8d1248734885e4a350e6ae098
+      internalID: -1545468161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1194
+        width: 212
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0844b7e7322d23640bef5ac3e1be51c8
+      internalID: 415318421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1194
+        width: 106
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3a677b0700f8143b5eef2706faf945
+      internalID: -280791876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 1202
+        width: 186
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9dec54d0b3878488a164c25962edd5
+      internalID: -264154052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1105
+        width: 204
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e410e9fdd97af4eb66457e98b7eec0
+      internalID: 1537687931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1095
+        width: 224
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76004c0ee3a9d6f4cb763c86ea664eff
+      internalID: -1585760521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 1107
+        width: 186
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e636b2ab2f4344e925f3612745096c
+      internalID: 182626519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1011
+        width: 196
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a400dc001600140b040af864123a7f
+      internalID: 2113993714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1003
+        width: 216
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98604143fbf2fa14e84737326aaa3f00
+      internalID: 39055610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 1003
+        width: 188
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2e7858652518d4db1dacfe6576a9e6
+      internalID: -473872991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 909
+        width: 192
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee9af03df5e3c340bfcb9326937f6e7
+      internalID: -449680059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 909
+        width: 194
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314fd911d02e1fb499ec0b802d17f624
+      internalID: 40139517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 908
+        width: 216
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1fa6a26bcd08c48b4720fea402077d
+      internalID: -1610212101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 807
+        width: 176
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a56dda487d6f6c47b6273dd0ad7e5d1
+      internalID: 252342790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 817
+        width: 216
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181c178c18fd6164fa3012e527598f20
+      internalID: 2117785829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 712
+        width: 184
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41387b961ac8806468b3556745a63c03
+      internalID: -594691089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 722
+        width: 216
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38d6e310b97c594fabae72e3b06d5a4
+      internalID: -1972752421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 628
+        width: 74
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e313d395cc4e1148b2c940d9c6f45bb
+      internalID: -849962495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 630
+        width: 216
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adcb1951699c122468f9420bf281908b
+      internalID: -624882267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 522
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5146ad2c51cb2841bcc734e89ea54c7
+      internalID: -418993722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Halo_5_Weapon_Icon_Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 530
+        width: 216
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01fe0b9797cde14da0e9342755cf5f5
+      internalID: -1807817274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d444945fcfa60094e9bd13db49f85454
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Halo_5_Weapon_Icon_Sheet_69: 1573483695
+      Halo_5_Weapon_Icon_Sheet_29: 85477147
+      Halo_5_Weapon_Icon_Sheet_18: 1476332026
+      Halo_5_Weapon_Icon_Sheet_60: 1939370378
+      Halo_5_Weapon_Icon_Sheet_25: -1367669337
+      Halo_5_Weapon_Icon_Sheet_0: -1655734328
+      Halo_5_Weapon_Icon_Sheet_11: 1469920017
+      Halo_5_Weapon_Icon_Sheet_27: -1150142245
+      Halo_5_Weapon_Icon_Sheet_19: -1376362281
+      Halo_5_Weapon_Icon_Sheet_33: -619632283
+      Halo_5_Weapon_Icon_Sheet_56: -1107495128
+      Halo_5_Weapon_Icon_Sheet_52: 2103630428
+      Halo_5_Weapon_Icon_Sheet_54: 1497959502
+      Halo_5_Weapon_Icon_Sheet_16: 1804849904
+      Halo_5_Weapon_Icon_Sheet_58: 2002611957
+      Halo_5_Weapon_Icon_Sheet_37: 25144184
+      Halo_5_Weapon_Icon_Sheet_64: -1915664657
+      Halo_5_Weapon_Icon_Sheet_12: 2059173875
+      Halo_5_Weapon_Icon_Sheet_14: 188789202
+      Halo_5_Weapon_Icon_Sheet_38: -1339569757
+      Halo_5_Weapon_Icon_Sheet_59: 978299656
+      Halo_5_Weapon_Icon_Sheet_46: -785354823
+      Halo_5_Weapon_Icon_Sheet_55: -1456615550
+      Halo_5_Weapon_Icon_Sheet_17: 1426171712
+      Halo_5_Weapon_Icon_Sheet_8: -231918301
+      Halo_5_Weapon_Icon_Sheet_39: -854181323
+      Halo_5_Weapon_Icon_Sheet_43: 192445425
+      Halo_5_Weapon_Icon_Sheet_36: -493323759
+      Halo_5_Weapon_Icon_Sheet_51: -96029745
+      Halo_5_Weapon_Icon_Sheet_63: -835309261
+      Halo_5_Weapon_Icon_Sheet_1: -1745822418
+      Halo_5_Weapon_Icon_Sheet_53: -1374389540
+      Halo_5_Weapon_Icon_Sheet_48: 1548421296
+      Halo_5_Weapon_Icon_Sheet_24: -1806133391
+      Halo_5_Weapon_Icon_Sheet_49: 26336994
+      Halo_5_Weapon_Icon_Sheet_57: 954745769
+      Halo_5_Weapon_Icon_Sheet_28: -301145938
+      Halo_5_Weapon_Icon_Sheet_23: 2002074503
+      Halo_5_Weapon_Icon_Sheet_31: 863318798
+      Halo_5_Weapon_Icon_Sheet_22: -1942924489
+      Halo_5_Weapon_Icon_Sheet_21: 1164610887
+      Halo_5_Weapon_Icon_Sheet_68: 775276868
+      Halo_5_Weapon_Icon_Sheet_67: -1815366010
+      Halo_5_Weapon_Icon_Sheet_34: -154117231
+      Halo_5_Weapon_Icon_Sheet_35: 1510364533
+      Halo_5_Weapon_Icon_Sheet_2: -2022466604
+      Halo_5_Weapon_Icon_Sheet_44: -1289622012
+      Halo_5_Weapon_Icon_Sheet_26: -134361740
+      Halo_5_Weapon_Icon_Sheet_61: 652281700
+      Halo_5_Weapon_Icon_Sheet_41: 859926982
+      Halo_5_Weapon_Icon_Sheet_62: 359714443
+      Halo_5_Weapon_Icon_Sheet_9: -1737075183
+      Halo_5_Weapon_Icon_Sheet_10: -949689687
+      Halo_5_Weapon_Icon_Sheet_50: 1772689092
+      Halo_5_Weapon_Icon_Sheet_15: 313341392
+      Halo_5_Weapon_Icon_Sheet_32: -1771859481
+      Halo_5_Weapon_Icon_Sheet_20: -38837823
+      Halo_5_Weapon_Icon_Sheet_3: 4266883
+      Halo_5_Weapon_Icon_Sheet_47: -570415333
+      Halo_5_Weapon_Icon_Sheet_40: 836778451
+      Halo_5_Weapon_Icon_Sheet_65: 1684499250
+      Halo_5_Weapon_Icon_Sheet_42: -1800242694
+      Halo_5_Weapon_Icon_Sheet_66: -1306406862
+      Halo_5_Weapon_Icon_Sheet_4: -657781692
+      Halo_5_Weapon_Icon_Sheet_30: -1780569444
+      Halo_5_Weapon_Icon_Sheet_13: -1940419498
+      Halo_5_Weapon_Icon_Sheet_45: 1199535057
+      Halo_5_Weapon_Icon_Sheet_5: 869299651
+      Halo_5_Weapon_Icon_Sheet_7: 793064722
+      Halo_5_Weapon_Icon_Sheet_6: 530780956
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
