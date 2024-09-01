@@ -18,23 +18,26 @@ public class clickRedirect : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        weaponCurrent = wC.getWeapon();
+        
         
 
     }
-    public void onReset()
+    public void onReset()   // when the Reset button is pressed
     {
+        weaponCurrent = wC.getWeapon();
         weaponCurrent.GetComponentInChildren<MaterialChange>().matReset();
         wC.Reset();
         
     }
-    public void onNext()
+    public void onNext()   // when the Next button is pressed
     {
+        weaponCurrent = wC.getWeapon();
         weaponCurrent.GetComponentInChildren<MaterialChange>().changeMatNext();
 
     }
-    public void onPrev()
+    public void onPrev() // when the Last button is pressed
     {
+        weaponCurrent = wC.getWeapon();
         weaponCurrent.GetComponentInChildren<MaterialChange>().changeMatPrev();
     }
 }

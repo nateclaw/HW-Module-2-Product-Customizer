@@ -53,14 +53,14 @@ public class WeaponCustomizer : MonoBehaviour
         guns.Add("M395 - \"DMR\"");
         guns.Add("M20 - \"SMG\"");
         
-        List<TMP_Dropdown.OptionData> iconItems = new List<TMP_Dropdown.OptionData>();
+        List<TMP_Dropdown.OptionData> iconItems = new List<TMP_Dropdown.OptionData>();  // gets the icons for each weapon
         foreach (var icon in icons)
         {
             var iconOption = new TMP_Dropdown.OptionData(icon.name, icon);
             iconItems.Add(iconOption);
         }
 
-        for (int i = 0;i<guns.Count;i++)
+        for (int i = 0;i<guns.Count;i++)    // Sets up the Options for the Dropdown menu
         {
             
             dropdown.options.Add(new TMP_Dropdown.OptionData() { text = (string)guns[i], image = (Sprite)icons[i] }) ;
@@ -102,7 +102,7 @@ public class WeaponCustomizer : MonoBehaviour
             Debug.LogWarning("Unexpected null weapon in WeaponCustomizer B");
         }
     }
-    public void Reset()
+    public void Reset() // Resets to default values apon Reset Button press
     {
         foreach (var weapon in weapons)
         {
@@ -118,11 +118,11 @@ public class WeaponCustomizer : MonoBehaviour
         weapons[0].SetActive(true);
         dropDown.value = 0;
     }
-    public GameObject getWeapon()
+    public GameObject getWeapon()   //returns the current weapon
     {
         return weapons[currentWeapon];
     }
-    public void ToggleAttachments(GameObject toggle)
+    public void ToggleAttachments(GameObject toggle)    // Toggles if the attachments are active
     {
         
         if (toggle.GetComponent<Toggle>().isOn)
@@ -149,12 +149,5 @@ public class WeaponCustomizer : MonoBehaviour
             
     }
 
-    private List<GameObject> GetChildren(Transform parent)
-    {
-        List<GameObject> children = new List<GameObject>();
-        foreach (GameObject child in parent) {
-            children.Add(child);
-        }
-        return children;
-    }
+    
 }

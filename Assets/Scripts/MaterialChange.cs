@@ -37,7 +37,7 @@ public class MaterialChange : MonoBehaviour
         // Change the material of the child object's renderer component to the new material
         
     }
-    public void changeMatNext()
+    public void changeMatNext() // changes to the next material in the list
     {
         if (newMaterials.Length > 1)
         {
@@ -52,7 +52,7 @@ public class MaterialChange : MonoBehaviour
 
         }
     }
-    public void changeMatPrev()
+    public void changeMatPrev() //cycles to the previous material in the list
     {
         if (newMaterials.Length > 1)
         {
@@ -66,7 +66,7 @@ public class MaterialChange : MonoBehaviour
             gameObject.GetComponent<Renderer>().material = newMaterials[i];
         }
     }
-    public void matReset()
+    public void matReset()  // resets the materials to their defaults
     {
         if (newMaterials.Length > 1)
         {

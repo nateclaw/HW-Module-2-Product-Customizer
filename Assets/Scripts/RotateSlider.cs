@@ -18,11 +18,11 @@ public class RotateSlider : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        angleSliderNum = rotationSlider.value * 270f;
-        this.transform.rotation = Quaternion.Euler(angleSliderNum, 0.0f, 0.0f);
+        angleSliderNum = rotationSlider.value * 270f;   // gets the value that the slider UI is at, multiplies by a constant int
+        this.transform.rotation = Quaternion.Euler(angleSliderNum, 0.0f, 0.0f); // updates the rotation based on the slider's position
     }
 
-    public void Reset()
+    public void Reset() // resets everything to default values upon the Reset Button being pressed
     {
         rotationSlider.value = 0;
         angleSliderNum = 0;
