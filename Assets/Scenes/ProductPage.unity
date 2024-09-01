@@ -3219,7 +3219,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 215, y: -129.99998}
+  m_AnchoredPosition: {x: 300, y: -129.99998}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &808771403
@@ -3759,7 +3759,7 @@ GameObject:
   - component: {fileID: 981110723}
   m_Layer: 0
   m_Name: Energy_bayonet
-  m_TagString: Untagged
+  m_TagString: Attachments
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3786,7 +3786,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 981110721}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -4173,7 +4173,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -214.99994, y: -129.99998}
+  m_AnchoredPosition: {x: -300, y: -129.99998}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1099913271
@@ -7290,7 +7290,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7117405350104210349}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -8021,7 +8021,7 @@ GameObject:
   - component: {fileID: 6011744514361813958}
   m_Layer: 0
   m_Name: ARCover
-  m_TagString: Untagged
+  m_TagString: Attachments
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8057,7 +8057,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5219387988984711699}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -8339,7 +8339,7 @@ GameObject:
   - component: {fileID: 397056154002396488}
   m_Layer: 0
   m_Name: Energy_bayonet
-  m_TagString: Untagged
+  m_TagString: Attachments
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8475,7 +8475,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8461743950583155164}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -8524,7 +8524,7 @@ GameObject:
   - component: {fileID: 1587545474850872777}
   m_Layer: 0
   m_Name: ExtendedBarrel
-  m_TagString: Untagged
+  m_TagString: Attachments
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8542,7 +8542,7 @@ GameObject:
   - component: {fileID: 1587545474707685634}
   m_Layer: 0
   m_Name: laser_guide
-  m_TagString: Untagged
+  m_TagString: Attachments
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8560,7 +8560,7 @@ GameObject:
   - component: {fileID: 1587545473848449669}
   m_Layer: 0
   m_Name: BR_Scope
-  m_TagString: Untagged
+  m_TagString: Attachments
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8578,7 +8578,7 @@ GameObject:
   - component: {fileID: 1587545474915098763}
   m_Layer: 0
   m_Name: Bayonet
-  m_TagString: Untagged
+  m_TagString: Attachments
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8596,7 +8596,7 @@ GameObject:
   - component: {fileID: 1587545474964219253}
   m_Layer: 0
   m_Name: longbarrel
-  m_TagString: Untagged
+  m_TagString: Attachments
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8614,7 +8614,7 @@ GameObject:
   - component: {fileID: 1587545475201189647}
   m_Layer: 0
   m_Name: DMR_Scope
-  m_TagString: Untagged
+  m_TagString: Attachments
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8695,7 +8695,7 @@ GameObject:
   - component: {fileID: 7957538634913966089}
   m_Layer: 0
   m_Name: ARDefaultMuzzleBrake
-  m_TagString: Untagged
+  m_TagString: Attachments
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Weapon
+  - Default
+  - Stock
+  - Icon
+  - WeaponCustomizer
+  - Attachments
   layers:
   - Default
   - TransparentFX
