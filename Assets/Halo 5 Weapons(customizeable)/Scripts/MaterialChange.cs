@@ -9,8 +9,9 @@ public class MaterialChange : MonoBehaviour
 {
     [SerializeField]
     private List<GameObject> attachments; // Reference to the child object
-    [SerializeField]
+    
     private int i = 0;
+    
     [SerializeField]
     private Material[] newMaterials; // Reference to the new material
 
@@ -76,5 +77,10 @@ public class MaterialChange : MonoBehaviour
             }
             gameObject.GetComponent<Renderer>().material = newMaterials[i];
         }
+    }
+
+    public List<GameObject> GetAttachments()
+    {
+        return attachments;
     }
 }

@@ -4,10 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using Unity.Mathematics;
+using Unity.VisualScripting;
+using System;
+
 
 public class WeaponCustomizer : MonoBehaviour
 {
-    private int currentWeapon;                                 //current weapon index
+    private int currentWeapon = 0;                                 //current weapon index
 
     [SerializeField]
     private GameObject[] weapons;                              //private list of GameObjects called weapons
@@ -17,18 +20,26 @@ public class WeaponCustomizer : MonoBehaviour
     [SerializeField]
     private Sprite[] icons;                     //array of the weapon icon sprites
 
-    
+    private GameObject[] addons;
     // Start is called before the first frame update
     void Start()
     {
 
 
-        weapons = GameObject.FindGameObjectsWithTag("Weapon"); //Finds all GameObjects tagged "Weapon" and adds them to "weapons" list
-        
+        //weapons = GameObject.FindGameObjectsWithTag("Weapon"); //Finds all GameObjects tagged "Weapon" and adds them to "weapons" list
+        addons = GameObject.FindGameObjectsWithTag("Attachments");
+
         foreach (var weapon in weapons)
         {
+            
             print(weapon.name + "Deactivated");
             weapon.SetActive(false);    //makes all weapons inactive in the current scene
+           
+
+        }
+        foreach (var part in addons)
+        {
+            part.SetActive(false);
         }
         weapons[0].SetActive(true);
         print(weapons[0].name + " Activated");
@@ -41,7 +52,6 @@ public class WeaponCustomizer : MonoBehaviour
         guns.Add("BR85N - \"Battle Rifle\"");
         guns.Add("M395 - \"DMR\"");
         guns.Add("M20 - \"SMG\"");
-        guns.Add("M9  - \"fragmentation grenade\"");
         
         List<TMP_Dropdown.OptionData> iconItems = new List<TMP_Dropdown.OptionData>();
         foreach (var icon in icons)
@@ -98,7 +108,13 @@ public class WeaponCustomizer : MonoBehaviour
         {
             print(weapon.name + "Deactivated");
             weapon.SetActive(false);    //makes all weapons inactive in the current scene
+            
         }
+        foreach (var part in addons)
+        {
+            part.SetActive(false);
+        }
+
         weapons[0].SetActive(true);
         dropDown.value = 0;
     }
@@ -106,5 +122,39 @@ public class WeaponCustomizer : MonoBehaviour
     {
         return weapons[currentWeapon];
     }
-    
+    public void ToggleAttachments(GameObject toggle)
+    {
+        
+        if (toggle.GetComponent<Toggle>().isOn)
+        {
+            print("TOGGLE IS ON");
+            foreach( var part in addons)
+            {
+                part.SetActive(true);
+            }
+            
+
+        }
+        else if (!toggle.GetComponent<Toggle>().isOn)
+        {
+            foreach( var part in addons)
+            {
+                part.SetActive(false);
+            }
+            
+        }
+        
+        
+        
+            
+    }
+
+    private List<GameObject> GetChildren(Transform parent)
+    {
+        List<GameObject> children = new List<GameObject>();
+        foreach (GameObject child in parent) {
+            children.Add(child);
+        }
+        return children;
+    }
 }
